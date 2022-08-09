@@ -1,7 +1,7 @@
 {
     "name": "@buvarp/csv-to-xlsx",
     "description": "JavaScript library for converting CSV files to XLSX",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "type": "commonjs",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",

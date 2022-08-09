@@ -1,4 +1,4 @@
 .husky/
 src/
-tsconfig.lock
+tsconfig.json
 .prettierrc
