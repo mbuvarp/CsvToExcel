@@ -3,8 +3,8 @@
     "description": "JavaScript library for converting CSV files to XLSX",
     "version": "0.0.1",
     "type": "commonjs",
-    "main": "./lib/index.js",
-    "types": "./lib/index.d.ts",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "license": "MIT",
     "keywords": [
         "csv",
@@ -13,11 +13,15 @@
         "converter"
     ],
     "author": "Magnus Buvarp <magnus.buvarp@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mbuvarp/CsvToExcel.git"
+    },
     "publishConfig": {
         "access": "public"
     },
     "scripts": {
-        "start": "node ./lib/index.js",
+        "start": "node ./dist/index.js",
         "dev": "ts-node ./src/index.ts",
         "build": "tsc",
         "prepare": "husky install .husky"
