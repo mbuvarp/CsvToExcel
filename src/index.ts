@@ -69,9 +69,7 @@ function createXlsx(records: string[][]) {
     return book
 }
 
-export default async function convertCsvToXlsx(
-    options: ConvertCsvToXlsxOptions
-) {
+export async function convert(options: ConvertCsvToXlsxOptions) {
     validateOptions(options)
 
     const records = await parseCSV(options)
