@@ -5,9 +5,9 @@ interface ConvertCsvToXlsxOptionsShared {
      */
     target?: string
     /**
-     * Do not write to XLSX file.
+     * Do not export to XLSX file.
      */
-    noWrite?: boolean
+    noExport?: boolean
 
     /**
      * Set the field delimiter. One character only, defaults to comma (',').

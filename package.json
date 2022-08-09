@@ -1,7 +1,8 @@
 {
-    "name": "csv-to-xlsx",
+    "name": "@buvarp/csv-to-xlsx",
     "description": "JavaScript library for converting CSV files to XLSX",
     "version": "0.0.1",
+    "type": "commonjs",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "license": "MIT",
@@ -12,6 +13,9 @@
         "converter"
     ],
     "author": "Magnus Buvarp <magnus.buvarp@gmail.com>",
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "start": "node ./bin/index.js",
         "dev": "ts-node ./src/index.ts",

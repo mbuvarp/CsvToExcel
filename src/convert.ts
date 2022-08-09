@@ -75,8 +75,10 @@ export default async function convertCsvToXlsx(
     const records = await parseCSV(options)
     const book = createXlsx(records)
 
-    const outFile = getTargetFileName(options)
-    xlsx.writeFile(book, outFile)
+    if (!options.noExport) {
+        const outFile = getTargetFileName(options)
+        xlsx.writeFile(book, outFile)
+    }
 
     return book
 }
