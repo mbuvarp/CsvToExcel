@@ -17,7 +17,7 @@
         "access": "public"
     },
     "scripts": {
-        "start": "node ./bin/index.js",
+        "start": "node ./lib/index.js",
         "dev": "ts-node ./src/index.ts",
         "build": "tsc",
         "prepare": "husky install .husky"
