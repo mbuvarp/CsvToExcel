@@ -2,7 +2,7 @@
     "name": "@buvarp/csv-to-xlsx",
     "description": "JavaScript library for converting CSV files to XLSX",
     "version": "0.0.5",
-    "type": "commonjs",
+    "type": "module",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "license": "MIT",
