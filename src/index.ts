@@ -19,6 +19,7 @@ function getSource(options: ConvertCsvToXlsxOptions) {
 }
 
 function getTargetFileName(options: ConvertCsvToXlsxOptions) {
+    if (!!options.target) return options.target
     if (!isPathOptions(options)) return `${new Date().toISOString()}.xlsx`
     const fileName = options.sourcePath.replace(/\.[^/.]+$/, '.xlsx')
     return path.basename(fileName)
